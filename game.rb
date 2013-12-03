@@ -28,6 +28,7 @@ class Game
         board.render
       end
     end
+    p "#{ @winner.to_s.upcase } wins the game!"
   end
 
   def over?
